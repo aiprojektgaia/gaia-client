@@ -1,0 +1,17 @@
+[general]
+name=GaiaClient
+qgisMinimumVersion=3.44
+qgisMaximumVersion=3.99
+description=Gaia Client Plugin for QGIS
+about=The Gaia Client Plugin is a QGIS plugin designed to perform semantic segmentation on aerial images and vectorize the results. This plugin serves as a starting point for further development and includes the basic structure and necessary components to perform these tasks.
+version=1.0.0
+author=GAIA
+email=aiprojektgaia@gmail.com
+tracker=https://github.com/aiprojektgaia/gaia-client/issues
+repository=https://github.com/aiprojektgaia/gaia-client
+category=Raster
+tags=segmentation,vectorization,aerial images
+homepage=https://github.com/aiprojektgaia/gaia-client
+icon=gaia_logo.svg
+experimental=False
+deprecated=False

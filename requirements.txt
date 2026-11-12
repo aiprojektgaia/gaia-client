@@ -1,0 +1,79 @@
+# Python environment shipped with QGIS 3.44.13 LTR "Solothurn" (OSGeo4W, x86_64).
+#
+# The GAIA client is a QGIS plugin: it does not install its own dependencies.
+# Everything below is provided by the QGIS runtime, so this file documents the
+# environment the plugin is supported on rather than a set of installable pins.
+# The plugin itself imports only PIL (pillow), PyQt5 and the qgis API.
+#
+# Upgrading the supported QGIS baseline from 3.28.15 LTR to 3.44.13 LTR clears
+# every advisory reported in vulnerability_audit_260817.json. Do not edit these
+# pins by hand - regenerate them from the OSGeo4W package index when the
+# supported QGIS version changes. See docs/security-fixes-260817.md.
+#
+# Removed relative to the 3.28 baseline (no longer part of the QGIS bundle):
+#   PyPDF2, PyQt5-stubs, cattrs, docstring-to-markdown,
+#   jedi-language-server, lsprotocol, pygls
+attrs==26.1.0
+certifi==2026.10.23
+chardet==7.5.1
+charset-normalizer==3.4.9
+contourpy==1.3.3
+cycler==0.12.1
+et_xmlfile==2.0.0
+ExifRead==3.5.1
+fonttools==4.63.0
+future==1.0.0
+GDAL==3.13.2
+geographiclib==2.1
+geopandas==1.1.4
+httplib2==0.32.0
+idna==3.18
+jedi==0.20.0
+Jinja2==3.1.6
+kiwisolver==1.5.0
+lxml==6.1.1
+MarkupSafe==3.0.3
+matplotlib==3.11.1
+mock==5.2.0
+networkx==3.6.1
+nose2==0.16.0
+numpy==2.4.6
+openpyxl==3.1.5
+OWSLib==0.36.0
+packaging==26.3
+pandas==3.0.5
+parso==0.8.7
+pillow==12.3.0
+plotly==6.9.0
+ply==3.11
+psycopg2==2.9.12
+pyarrow==25.0.0
+Pygments==2.20.0
+pyodbc==5.3.0
+pyogrio==0.13.0
+PyOpenGL==3.1.10
+pyparsing==3.3.2
+pypiwin32==223
+pyproj==3.7.2
+PyQt5==5.15.11
+PyQt5_sip==12.19.0
+pyserial==3.5
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+pywin32==311
+PyYAML==6.0.3
+remotior_sensus==0.7.5
+reportlab==5.0.0
+requests==2.34.2
+scipy==1.18.0
+setuptools==84.0.0
+shapely==2.1.2
+simplejson==4.1.1
+sip==6.16.0
+six==1.17.0
+tenacity==9.1.4
+tzdata==2026.3
+urllib3==2.7.0
+wxPython==4.2.5
+xlrd==2.0.2
+xlwt==1.3.0
